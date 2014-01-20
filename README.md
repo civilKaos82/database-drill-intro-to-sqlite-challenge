@@ -7,9 +7,6 @@
 
 ##Summary 
 
- Remember to enter the <a href="https://plus.google.com/hangouts/_/event/cn84s0i6f761j9rpv4a3ljddg0o?authuser=1&hl=en" target="_blank">collaboration hangout.</a> *Please turn off your video and sound. Use the chat function.*
-
-
 [SQLite](http://en.wikipedia.org/wiki/SQLite) is a really simple relational database.  Every database is a single file, which you can move around.
 
 You should already have SQLite installed.  The default way SQLite displays data is not great though, so paste the following into your Terminal:
