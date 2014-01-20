@@ -2,6 +2,9 @@
  
 ##Learning Competencies 
 
+* Create and modify a database in SQLite.
+* Model relationships in a relational database (one-to-one, one-to-many, many-to-many)
+
 ##Summary 
 
  Remember to enter the <a href="https://plus.google.com/hangouts/_/event/cn84s0i6f761j9rpv4a3ljddg0o?authuser=1&hl=en" target="_blank">collaboration hangout.</a> *Please turn off your video and sound. Use the chat function.*
@@ -66,18 +69,15 @@ sqlite>
 
 Read this article about [SQLite Datatypes](http://www.sqlite.org/datatype3.html) for more information what <code>VARCHAR</code>, <code>DATETIME</code>, etc. mean.
 
-<!--Anxious to move beyond the command line and use SQLite in Ruby?  You can interact with SQLite in Ruby using the [sqlite3](https://github.com/luislavena/sqlite3-ruby) gem.  Install it by running:
+##Releases
 
-```bash
-gem install sqlite3
-```
--->
-## Objectives
-### Create a dummy database
+###Release 0 : Create a dummy database
 
 Create your own dummy database in SQLite, and create a users schema as shown above.
 
-### Insert some data
+###Release 1 : Modify the database
+
+#### Insert some data
 
 You now have a table, so let's insert some data!  Paste the following into the sqlite shell:
 
@@ -97,7 +97,7 @@ SELECT * FROM users;
 Now add a new entry to the database with your own name and email.  Run another select statement to see both entries.
 
 
-### Multi-line commands
+#### Multi-line commands
 
 The Sqlite3 shell is made to take multiple line commands.  So if you just type in `select * from users` and hit enter, nothing happens.  Only when you end the query with a `;` and hit `return` does the query run.
 
@@ -106,7 +106,7 @@ This allows SQLite to take a multi-line `INSERT` statement like the one above.  
 Now try adding Jessie to the database again, with the same data as above.  Did you get an error - `Error: column email is not unique`?  If so, can you track it down?  Make sure all your data is there by running your select statement, and try again.
 
 
-### Add a column
+#### Add a column
 
 Now add a column to the users table for "nicknames".  You'll need to use the `ALTER` statement. Make sure you add the correct type for the nickname `VARCHAR(64)` and that it is a mandatory field - ie `NOT NULL`. If you make a mistake, don't worry!  Just `.quit` out of SQLite, delete the `dummy.db` file and start over again.
 
@@ -118,7 +118,7 @@ Use a select statement to see the database entries, they should include the new 
 
 Need help?  This [tutorial](http://zetcode.com/databases/sqlitetutorial/) may provide some insight.
 
-### Change a value
+#### Change a value
 
 Oops.  Jesse's not so pleased about his new nickname.  He's also not so pleased that his name was spelled wrong. We need to change all three of these things!
 Jesse's correctly spelled name is "Jesse Farmer" and he'd likely be less perturbed with a nickname like "Ninja Coder".
@@ -129,13 +129,8 @@ And don't forget to update the `updated_at` column.  It should be the current ti
 
 Use a select statement to see the database entries, they should include the correct spellings and updated nickname.  Nice work!
 
-###Submit your console history
+**There is nothing to turn in for this challenge - just make sure you are up and running! **
 
-Copy all your previous commands from the SQLite console, paste them in the gist, and submit! 
-
-##Releases
-###Release 0 
-
-##Optimize Your Learning 
+<!-- ##Optimize Your Learning  -->
 
 ##Resources
