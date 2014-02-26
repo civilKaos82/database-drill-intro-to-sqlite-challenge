@@ -2,7 +2,7 @@
  
 ##Learning Competencies 
 
-* Create and modify a database in SQLite.
+* Create and modify a database in SQLite
 * Model relationships in a relational database (one-to-one, one-to-many, many-to-many)
 
 ##Summary 
