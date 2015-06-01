@@ -105,7 +105,7 @@ Now try adding Jessie to the database again, with the same data as above.  Did y
 
 #### Add a column
 
-Now add a column to the users table for "nicknames".  You'll need to use the `ALTER` statement. Make sure you add the correct type for the nickname `VARCHAR(64)` and that it is a mandatory field - ie `NOT NULL`. If you make a mistake, don't worry!  Just `.quit` out of SQLite, delete the `dummy.db` file and start over again.
+Now add a column to the users table for "nicknames".  You'll need to use the `ALTER` statement. Make sure you add the correct type for the nickname `VARCHAR(64)`. If you make a mistake, don't worry!  Just `.quit` out of SQLite, delete the `dummy.db` file and start over again.
 
 Make sure the schema was updated by typing `.schema`.  Your new `nickname` column should appear last.
 
