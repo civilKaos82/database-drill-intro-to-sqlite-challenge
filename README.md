@@ -68,9 +68,9 @@ Take a look at our database's schema.  How is the schema presented?  Did we noti
 
 
 ### Release 3: Insert User Data
-Now that we have a table, let's insert a user record with a SQL insert statement.  In an insert statement, we specify the name of the table into which we want to insert data, the columns for which we are providing data, and the values of that data.
+Now that we have a table, let's insert user records with a SQL insert statement.  In an insert statement, we specify the name of the table into which we want to insert data, the columns for which we are providing data, and the values of that data.
 
-Insert a user into the `users` table by entering the following SQL statement.  Read through the statement.  Do we understand what it's doing?  For which columns are we providing a value?  For which columns in the users table are we not providing a value, why not?  What type of data is each value?  What does the [`datetime()`][datetime function] function do?  Why do we pass `'now'` to the function?
+Insert users into the `users` table by entering the following SQL statement.  Read through the statement.  Do we understand what it's doing?  For which columns are we providing a value?  For which columns in the users table are we not providing a value, why not?  What type of data is each value?  What does the [`datetime()`][datetime function] function do?  Why do we pass `'now'` to the function?
 
 ```sql
 INSERT INTO users
