@@ -1,7 +1,7 @@
 # Working in the SQLite Shell
 
 ## Summary 
-We're beginning to work with databases.  Now, there are different types of databases.  We'll be working with relational databases, but there are also different types of relational databases.  To begin, we'll be working with [SQLite](http://en.wikipedia.org/wiki/SQLite) databases. 
+We're beginning to work with databases.  Now, there are different types of databases.  We'll be working with relational databases.  But, there are also different types of relational databases.  To begin, we'll be working with [SQLite](http://en.wikipedia.org/wiki/SQLite) databases.
 
 Why are we starting with SQLite?  They are relatively simple relational databases, and they are saved in a single file, which makes them easy to move around—for example, checking them into a GitHub repo.  Also, if we're on a mac, software for interacting with SQLite databases comes installed; [downloads][sqlite downloads] are available for Windows and other systems.
 
