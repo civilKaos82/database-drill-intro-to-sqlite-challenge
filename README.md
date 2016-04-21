@@ -64,7 +64,7 @@ CREATE TABLE users (
 ### Release 2:  Check the Schema
 We've been designing database schemas visually using the schema designer tool.  When we're in the SQLite shell, we can check on the current schema of our database by entering `.schema`.  Using this command will present us with the structure of our database as it currently exists:  what tables are in the database, the columns on those tables, etc.
 
-Take a look at our database's schema.  How is the schema presented?  Did we notice the create stable statement?  Could we use this to recreate the structure of our database?
+Take a look at our database's schema.  How is the schema presented?  Did we notice the create table statement?  Could we use this to recreate the structure of our database?
 
 
 ### Release 3: Insert User Data
