@@ -1,7 +1,7 @@
 # Working in the SQLite Shell
 
 ## Summary 
-We've worked with storing data for our applications in text files—CSV files for example.  Now we're going to begin using databases to persist the state of our application.  We'll be working with relational databases, though there are other types.  But, there are also different types of relational databases: PostgreSQL, MySQL, etc.  To begin, we'll be working with [SQLite](http://en.wikipedia.org/wiki/SQLite) databases.
+We've worked with storing data for our applications in text files—CSV files for example.  Now we're going to begin using databases to persist the state of our applications.  We'll be working with relational databases, though there are other types.  But, there are also different types of relational databases: PostgreSQL, MySQL, etc.  To begin, we'll be working with [SQLite](http://en.wikipedia.org/wiki/SQLite) databases.
 
 Why are we starting with SQLite?  They are relatively simple relational databases, and they are saved in a single file, which makes them easy to move around—for example, checking them into a GitHub repo.  Also, if we're on a mac, software for interacting with SQLite databases comes installed; [downloads][sqlite downloads] are available for Windows and other systems.
 
